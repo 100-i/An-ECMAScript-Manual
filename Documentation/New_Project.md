@@ -25,3 +25,33 @@ Modify `package.json` as follows:
     "start": "http-server"
 },
 ~~~~~~
+
+Run the `babel` script using npm.
+
+
+~~~~~~shell
+npm run babel
+~~~~~~
+
+Add the built `bundle.js` file to a project `.html` file.
+
+
+~~~~~~shell
+<script src="build/main.bundle.js"></script>
+~~~~~~
+
+Start `http-server`.
+
+~~~~~~shell
+npm start
+~~~~~~
+
+Now accessible is the `http-server` through port `8081`.
+
+Point your browser to `http://localhost:8081` to find the project.
+
+Or use curl to test the URL.
+
+~~~~~~shell
+curl http://localhost:8081
+~~~~~~

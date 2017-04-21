@@ -10,7 +10,7 @@ A small example of an application written for ECMAScript.
 First, ensure `node` and `npm` are installed, see the `Documentaion/` folder 
 for detailed instructions.
 
-### 1. Clone The Project
+### 1. Clone the Project
 
 ~~~~~~shell
 git clone https://github.com/100-i/An-ECMAScript-Manual.git

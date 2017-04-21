@@ -1,13 +1,31 @@
 Basic ES6
 =========
 
-To start this project, make sure `node` and `npm` are installed, see the
-`Documentaion/` folder for instructions.
+A small example of an application written for ECMAScript.
 
-Using npm, start the local web server from the project directory.
+## Usage
 
-Change directory to the `basic_es6/` folder, then run `npm start`:
+### Requirements
 
+First, ensure `node` and `npm` are installed, see the `Documentaion/` folder 
+for detailed instructions.
+
+### 1. Clone The Project
+
+~~~~~~shell
+git clone https://github.com/100-i/An-ECMAScript-Manual.git
 ~~~~~~
+
+### 2. Navigate to the Project, and Start
+
+Change directory to the `basic_es6/` folder.then run `npm start`:
+
+~~~~~~shell
+cd An-ECMAScript-Manual/basic_es6
+~~~~~~
+
+Start the web server with `npm start`.
+
+~~~~~~shell
 npm start
 ~~~~~~
